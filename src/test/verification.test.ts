@@ -41,7 +41,7 @@ describe("Account-specific verification requirements", () => {
   it("requires personal KYC details and an identity document, not business documents", () => {
     const details = { legalName: "Test person", birthDate: "1990-01-01", idType: "Aadhaar card", idNumber: "ID123456", address: "Test address" };
     expect(hasVerificationDetails("personal", details, {})).toBe(false);
-    expect(hasVerificationDetails("personal", details, { identity: document })).toBe(true);
+    expect(hasVerificationDetails("personal", details, { identity: document })).toBe(false);
     expect(hasVerificationDetails("personal", details, { identity: document, selfie: document })).toBe(true);
     expect(hasVerificationDetails("personal", { ...details, birthDate: "" }, { identity: document, selfie: document })).toBe(false);
   });
