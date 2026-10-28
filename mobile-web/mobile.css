@@ -1,0 +1,14 @@
+:root {
+  color-scheme: dark;
+  --background: oklch(0.13 0.004 20);
+  --foreground: oklch(0.97 0.004 20);
+  --muted-foreground: oklch(0.68 0.01 20);
+  --primary: oklch(0.6 0.23 25);
+  --primary-foreground: oklch(0.99 0 0);
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--background); color: var(--foreground); font-family: system-ui, sans-serif; }
+main { min-height: 100dvh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 32px; }
+h1 { font-size: 28px; }
+p { max-width: 320px; color: var(--muted-foreground); line-height: 1.5; }
+a { margin-top: 16px; padding: 12px 24px; border-radius: 8px; background: var(--primary); color: var(--primary-foreground); text-decoration: none; }
