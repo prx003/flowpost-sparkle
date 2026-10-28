@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SAC Community</string>
+    <string name="title_activity_main">SAC Community</string>
+    <string name="package_name">app.saccommunity.mobile</string>
+    <string name="custom_url_scheme">app.saccommunity.mobile</string>
+</resources>

@@ -1,0 +1,17 @@
+# Tasks
+- [x] Prepare Android and iOS native projects using the existing published app; document signing and native build requirements.
+- [ ] Compile/sign APK and iOS archive and test on devices — blocked by missing Android SDK/JDK, macOS/Xcode, and developer signing accounts.
+- [x] Add verification-email resend and unconfirmed-login recovery; verify button behavior and error handling.
+- [ ] Confirm verification email delivery with the existing account service owner — hosted email settings and delivery logs are not accessible from this project.
+- [x] Add account-specific business/shop verification and personal KYC forms with document selection, including business representative KYC; submission remains unavailable pending private storage and review persistence.
+- [ ] Add music preview playback, seeking, volume and song-label editing; verify in the signed-in story form without publishing content.
+- [x] Set menu order to Home, Reels, Explore, Notifications, Messages and verify Create is available only on the own profile.
+- [x] Move people controls into the profile header and verify the popup lists; remove the section below Highlights.
+- [x] Add Instagram-style profile connections, people to connect with, and connection states.
+- [x] Verify the profile connections flow while signed in.
+- [x] Add clearly labeled sample posts and stories without modifying real accounts.
+- [x] Replace the story strip with one freely draggable floating story ring that opens everyone's stories.
+- [x] Verify floating-button movement and story navigation on mobile and desktop.
+- [x] Improve story creation, posts and reels with Instagram-inspired presentation.
+- [x] Verify story upload, text overlay, sharing form and feed while signed in on phone and desktop; no test content published.
+- [ ] Verify reel playback with an existing reel — blocked because the account has no reels.
